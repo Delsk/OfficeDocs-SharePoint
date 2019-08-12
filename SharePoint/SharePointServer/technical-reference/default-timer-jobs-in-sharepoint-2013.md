@@ -132,7 +132,7 @@ The following table lists the default timer jobs for SharePoint 2013.
 |Scheduled Approval  <br/> |Looks for content that is scheduled for approval and moves it to the next stage in the process.  <br/> |1 minute  <br/> |
 |Scheduled Unpublish  <br/> |Looks for content that is scheduled to be unpublished and removes it.  <br/> |1 minute  <br/> |
 |Search and process  <br/> |Processes a search result that is scoped to a site collection and puts search results on hold.  <br/> |Daily  <br/> |
-|Search change log generator  <br/> |Generates appropriate change logs when SharePoint items change. This is required for search to function correctly.  <br/> |5 minutes  <br/> |
+|Search change log generator  <br/> |Generates appropriate changes in the Managed Metadata termstore when changes are made to SharePoint publishing pages which use friendly URLs. This is required for friendly URLs to function correctly in search.  <br/> |5 minutes  <br/> |
 |Search custom dictionaries update  <br/> |Updates the custom dictionaries used for search. These include custom dictionaries for company extraction and for query spelling correction.  <br/> |10 minutes  <br/> |
 |Search engine sitemap  <br/> |Generates search engine sitemaps and updates robots.txt.  <br/> |Daily  <br/> |
 |Search health monitoring - trace events  <br/> |Runs to check the events that are being traced for search health monitoring.  <br/> |1 minute  <br/> |
